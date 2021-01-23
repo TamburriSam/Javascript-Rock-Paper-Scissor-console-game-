@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Function scope example</title>
+</head>
+<body>
+
+  <script>
+    const names = ['John', 'Sam', 'Sally'];
+
+ /*    for(i=0;i<names.length;i++){
+        console.log(names[i]);
+    } */
+
+   // names.push('sama');
+    //names[names.length] = 'lemon';
+    //names[7] = 'Cat'
+
+
+
+    const cats = ['Bill', 'Jeff', 'Pete', 'Biggles', 'Jasmin'];
+let info = 'My cats are called ';
+
+
+for (let i = 0; i < cats.length; i++) {
+  info += cats[i] + ', ';
+}
+
+for(let i = 10; i >=0; i--){
+if(i===10){
+console.log(i + 'Countdown 10');
+continue}
+if(i===0){
+    console.log(i + 'Blastoff')
+}
+const para = document.createElement('p');
+para.textContent = i;
+output.appendChild(para);
+console.log(i);}
+
+
+
+
+
+  </script>
+</body>
+</html>

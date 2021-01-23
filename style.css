@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+    margin-top:50px;
+    border: 1px solid green;
+    border-radius:30px;
+    padding:10px;
+}
+
+.title-box {
+    display:inline;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.player-container {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.player-buttons {
+    margin-left:30px;
+}
+
+.score-box{
+    width:100px;
+    height:100px;
+    border:solid 2px black;
+    border-radius:10px;
+    margin-right:14%
+}
+
+.question-mark {
+    height:100px;
+    width:100px;
+    margin-right:130px;
+   
+}
